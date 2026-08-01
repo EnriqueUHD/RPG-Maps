@@ -7,10 +7,10 @@ function Settings() {
       <h1>Configurações</h1>
 
       <ul id="settings-list">
-        <li><button>MAPAS</button></li>
-        <li><button>PONTOS DE INTERESSE</button></li>
-        <li><button>MAPAS INTERNOS</button></li>
-        <li><button>TOKEN PLAYERS</button></li>
+        <li><Link to="/configuracoes/mapas"><button>MAPAS</button></Link></li>
+        <li><Link to="/configuracoes/pontos_interesse"><button>PONTOS DE INTERESSE</button></Link></li>
+        <li><Link to="/configuracoes/mapas_internos"><button>MAPAS INTERNOS</button></Link></li>
+        <li><Link to="/configuracoes/token_players"><button>TOKEN PLAYERS</button></Link></li>
       </ul>
 
       <Link to="/">
